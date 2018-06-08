@@ -1,0 +1,225 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+	<title> Bootstrap Assignmnet </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="StyleSheet" href="boot2.css">
+</head>
+
+<body style="background-color:rgba(0,0,0,0.01);">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<!--------------------------------------------header--------------------------------------------->
+	<nav class="navbar sticky-top navbar-expand-lg  navbar-dark" style="background-color:rgba(0,0,0,0.2) !important; margin-bottom:20px;">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="link.html">link sharing</a>
+			<div class="collapse navbar-collapse " id="tabs" >
+				<ul class="nav nav-tabs ">
+				  <li class="nav-item">
+				    <a class="nav-link active" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">About</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Support</a>
+				  </li>
+				</ul>
+			</div>
+			<button class="navbar-toggler navbar-toggleable-sm ml-auto float-sm-right" type="button" data-toggle="collapse" data-target="#tabs">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end"  id="search">
+				<ul class="nav">
+				  <li class="nav-item">
+				    <div class="input-group ">
+  						<div class="input-group-prepend">
+    						<span class="input-group-text" id="basic-addon1"><i class="fa fa-search"></i></span>
+  						</div>
+  					<input type="text" class="form-control" placeholder="search here" aria-label="Search" aria-describedby="basic-addon1">
+					</div>
+				  </li>
+				</ul>
+			</div>
+			<button class="navbar-toggler navbar-toggleable-sm  float-sm-right" type="button" data-toggle="collapse" data-target="#search">
+				<span><i class="fa fa-search"></i></span>
+			</button>
+		</div>
+	</nav>
+
+	<!--------------------------------------------content------------------------------------------------------>
+	<div class="content">
+		<div class="container-fluid">
+			<div class="row ">
+	<!-------------------------------------------main col-8------------------------------------------------------>		
+				<div class=" col-md-8 left1">
+
+	<!---------------------------------------------------card1-left---------------------------------------------------->				
+					<div class="card">
+						<div class="card-header">
+							<h5 >Recent Searches</h5>
+						</div>
+						<div class="card-body">
+							<div class="row" style="padding:20px;">
+								<div class="col-sm-4 ">
+									<img src="person.png" class="img-fluid rounded " >
+								</div>
+								<div class="col-sm-8 ">
+									<span class="p-1">Abraham linclon$$</span>
+									<span"><a href="#">@abraham%min</a></span>
+									<span class="float-right"><a href="#">Grails</a></span>
+									<p>
+										impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut erepellat
+									</p>
+									<span><a href="#"><i class="fa fa-facebook-official"></i></a></span>
+									<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+									<span><a href="#"><i class="fa fa-google-plus"></i></a></span>
+									<span class="float-right"><a href="#">View posts</a></span>
+
+								</div>
+							</div>
+
+							<div class="row" style="padding:20px;">
+								<div class="col-sm-4 c1">
+									<img src="person.png" class="img-fluid rounded " >
+								</div>
+
+								<div class="col-sm-8 c2" >
+
+									<span class="p-1">Abraham linclon$$</span>
+									<span><a href="#">@abraham%min</a></span>
+									<span class="float-right"><a href="#">Grails</a></span>
+									<p>
+										sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+									</p>
+									<span><a href="#"><i class="fa fa-facebook-official"></i></a></span>
+									<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+									<span><a href="#"><i class="fa fa-google-plus"></i></a></span>
+									<span class="float-right"><a href="#">View posts</a></span>
+								</div>
+			
+							</div>
+						</div>
+					</div>
+	<!------------------------card2-----left---------------------------------------------------------->				
+					<div class="card">
+
+						<div class="card-header">
+							<h5 style="display:inline;">Top posts</h5>
+							<div class="dropdown float-right" style="display:inline;">
+							  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Today
+							  </button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">Tomorrow</a>
+							    <a class="dropdown-item" href="#">Within week</a>
+							    <a class="dropdown-item" href="#">Within month</a>
+							  </div>
+							</div>
+						</div>
+					
+						<div class="card-body">
+							<div class="row" style="padding:20px;">
+								<div class="col-sm-4 ">
+									<img src="person.png" class="img-fluid rounded " >
+								</div>
+								<div class="col-sm-8 ">
+									<span class="p-1 ">Abraham linclon$$</span>
+									<span><a href="#">@abraham%min</a></span>
+									<span class="float-right"><a href="#">Grails</a></span>
+									<p>
+										impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut erepellat
+									</p>
+									<span><a href="#"><i class="fa fa-facebook-official"></i></a></span>
+									<span><a href="#"><i class="fa fa-twitter"></i></a></span>
+									<span><a href="#"><i class="fa fa-google-plus"></i></a></span>
+									<span class="float-right"><a href="#">View posts</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+<!-------------------------------------------card2 ended------------------------------------>
+				</div>
+<!-----------------------------------------main col-8 ended------------------------------------------------>
+<!-----------------------------------------main col-4 start--------------------------------------------->
+				<div class="col-md-4 right1 " >
+<!----------------------------------------card3-right---form1---------------------------------------------->
+					<div class="card">
+						<div class="card-header">
+							<h5>Login</h5>
+						</div>
+						<div class="card-body">
+							<div class="row " style="padding:20px;">
+								<form class=" form1">
+								  <div class="form-group row">
+								    <label class="col-sm-4" for="InputEmail">Email </label>
+								    <input type="email" class="form-control col-sm-8" id="InputEmail" placeholder="Enter email">
+								   </div>
+								  <div class="form-group row">
+								    <label for="InputPassword" class="col-sm-4">Password</label>
+								    <input type="password" class="form-control col-sm-8" id="InputPassword" placeholder="Password">
+								  </div>
+								  <span><a href="#">forget password</a></span>
+								  <button type="submit" class="btn btn-primary float-right" style="margin-right:10px;">login</button>
+								</form>
+							</div>
+						</div>
+					</div>
+<!-------------------------------------card4---right----form2----------------------------------------------------->					
+					<div class="card">
+						<div class="card-header">
+							<h5>Register</h5>
+						</div>
+						<div class="card-body">
+							<div class="row " style="padding:20px;">
+								<form class=" form1">
+									<div class="form-group row">
+								    <label class="col-sm-4" for="firstName">First name </label>
+								    <input type="text" class="form-control col-sm-8" id="firstName" placeholder="first name">
+								  </div>
+									<div class="form-group row">
+								    <label class="col-sm-4" for="lastName">Last name </label>
+								    <input type="text" class="form-control col-sm-8" id="lastName" placeholder="last name">
+								  </div>
+								  <div class="form-group row">
+								    <label class="col-sm-4" for="InputEmail">Email </label>
+								    <input type="email" class="form-control col-sm-8" id="InputEmail" placeholder="email">
+								  </div>
+									<div class="form-group row">
+								    <label class="col-sm-4" for="userName">Username </label>
+								    <input type="text" class="form-control col-sm-8" id="userName" placeholder="username">
+								  </div>
+								  <div class="form-group row">
+								    <label for="InputPassword" class="col-sm-4">Password</label>
+								    <input type="password" class="form-control col-sm-8" id="InputPassword" placeholder="password">
+								  </div>
+								  <div class="form-group row">
+								    <label for="ConfirmPassword" class="col-sm-4">Confirm Password</label>
+								    <input type="password" class="form-control col-sm-8" id="ConfirmPassword" placeholder="confirm password">
+								  </div>
+								  <div class="form-group row">
+								    <label class="col-sm-4" for="photoImage">Photo</label>
+								    <input type="file" class="form-control-file col-sm-8" id="photoImage">
+								  </div>
+								  <button type="submit" class="btn btn-primary float-right" style="margin-right:10px;">register</button>
+								</form>
+							</div>
+						</div>
+					</div>
+<!--------------------------------------------card4 ended----------------------------------------------------------->
+				</div>
+<!----------------------------------------main-col-4 ended-------------------------------------------------------------->
+			</div>	
+		</div>
+	</div>
+
+	
+</body>
+
+</html>

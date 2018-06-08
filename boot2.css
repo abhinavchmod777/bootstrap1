@@ -1,0 +1,47 @@
+.left1,.right1{
+	padding: :20px;
+	border-radius:5px;
+}
+.left.row{
+	margin-bottom:30px!important;
+}
+.fa{
+	font-size:30px;
+	padding:4px;
+}
+.fa-search{
+	font-size:18px;
+}
+.form1{
+	width:100%;
+}
+.card{
+	margin-bottom:20px;
+}
+h5{
+	margin-bottom:0px;
+}
+.navbar-toggler{
+	border:none;
+	margin:0px;
+}
+
+  @media(max-width:576px)
+{
+	.navbar{
+		padding:5px;
+	}
+	.img-fluid {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 20px;
+  }
+    .card{
+  	border-radius:0px;
+  	border-left:0px;
+  	border-right:0px;
+  }
+  .left1 ,.right1{
+  	padding:0px;
+  }
+}
